@@ -6,8 +6,9 @@
 
 STARTUPSRC = $(CHIBIOS)/os/common/startup/ARMCMx/compilers/GCC/crt1.c
 
-STARTUPASM = $(ARTERY_CONTRIB)/os/common/startup/ARMCMx/compilers/GCC/startup_at32f435.S \
-             $(CHIBIOS)/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S \
+# cypress is happy without custom asm see startup_S6E2CxAH.mk
+# kinetis has a custom asm just for some Errata see startup_ke1xf.S
+STARTUPASM = $(CHIBIOS)/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S \
              $(CHIBIOS)/os/common/startup/ARMCMx/compilers/GCC/vectors.S
 
 STARTUPINC = $(ARTERY_CONTRIB)/os/common/startup/ARMCMx/devices/AT32F435 \
