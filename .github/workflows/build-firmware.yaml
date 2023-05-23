@@ -1,0 +1,16 @@
+name: Firmware at GHA
+
+on: [ push, pull_request ]
+
+jobs:
+  build-firmware:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: 1. Compile
+        run: |
+          bash compile.sh
