@@ -21,10 +21,10 @@
 
 /**
  * @file    cmparams.h
- * @brief   ARM Cortex-M4 parameters for the Kinetis KE1xF.
+ * @brief   ARM Cortex-M4 parameters for the Artery.
  *
  * @details This file contains the Cortex-M4 specific parameters for the
- *          Kinetis KE1xF platform.
+ *          Artery at32f325 platform.
  * @{
  */
 
