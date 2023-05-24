@@ -9,3 +9,5 @@ typedef enum {
 	BOR_Level_2 = 2,
 	BOR_Level_3 = 3
 } BOR_Level_t;
+
+#define PORT_SIZE 16
