@@ -30,3 +30,15 @@ brain_pin_e parseBrainPin(const char *str) {
 	int pin = atoi(pinStr);
 	return (brain_pin_e)(basePin + pin);
 }
+
+ioportid_t * getGpioPorts() {
+    return nullptr;
+}
+
+uint32_t getTimeNowLowerNt() {
+	return 0;// TODO: at32 port_rt_get_counter_value();
+}
+
+unsigned int getBrainPinOnchipNum(void) {
+	return BRAIN_PIN_ONCHIP_PINS;
+}
