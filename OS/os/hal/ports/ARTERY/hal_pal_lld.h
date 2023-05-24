@@ -1,3 +1,22 @@
+/**
+ * @brief   Width, in bits, of an I/O port.
+ */
+#define PAL_IOPORTS_WIDTH 16
+
+/**
+ * @name    Line handling macros
+ * @{
+ */
+/**
+ * @brief   Forms a line identifier.
+ * @details A port/pad pair are encoded into an @p ioline_t type. The encoding
+ *          of this type is platform-dependent.
+ * @note    In this driver the pad number is encoded in the lower 4 bits of
+ *          the GPIO address which are guaranteed to be zero.
+ */
+#define PAL_LINE(port, pad)                                                 \
+  ((ioline_t)((uint32_t)(port)) | ((uint32_t)(pad)))
+
 /* Specifies palInit() without parameter, required until all platforms will
    be updated to the new style.*/
 #define PAL_NEW_INIT
