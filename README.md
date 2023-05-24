@@ -10,6 +10,8 @@ An attempt to blink an LED on AT-START-F435 board using ChibiOS+rusEFI codebase
 * only difference with above mentioned cypress and kinetis is here we are trying to build on top of rusEFI as a git submodule
 * see 'ext/AT32F435_437_Firmware_Library' for Artery firmware library
 
+![image](https://github.com/rusefi/fw-AT-START-F435/assets/48498823/81af22f5-1581-429a-a370-377ecf8afcb8)
+
 
 # Artery Documentation
 
