@@ -1,3 +1,7 @@
+/* Specifies palInit() without parameter, required until all platforms will
+   be updated to the new style.*/
+#define PAL_NEW_INIT
+
 /**
  * @brief   Digital I/O port sized unsigned type.
  */
@@ -36,3 +40,7 @@ extern "C" {
 }
 #endif
 
+//typedef struct {
+//} PALConfig;
+
+//extern const PALConfig pal_default_config;
