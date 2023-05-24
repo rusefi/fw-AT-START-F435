@@ -7,8 +7,6 @@
 void baseMCUInit(void) {
 }
 
-#define PORT_SIZE 16
-
 // copy-paste of stm32 method? reuse code?
 brain_pin_e parseBrainPin(const char *str) {
 	if (strEqual(str, "none"))
