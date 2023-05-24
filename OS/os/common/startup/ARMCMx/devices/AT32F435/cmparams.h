@@ -66,7 +66,7 @@
 /* Including the device CMSIS header. Note, we are not using the definitions
    from this header because we need this file to be usable also from
    assembler source files. We verify that the info matches instead.*/
-// todo: mention proper file? just a copy-paste for now#include "MKE16F16.h"
+#include "at32f435_437.h"
 
 #if CORTEX_PRIORITY_BITS != __NVIC_PRIO_BITS
 #error "CMSIS __NVIC_PRIO_BITS mismatch"

@@ -13,6 +13,8 @@ STARTUPASM = $(CHIBIOS)/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S \
 
 STARTUPINC = $(ARTERY_CONTRIB)/os/common/startup/ARMCMx/devices/AT32F435 \
              $(ARTERY_CONTRIB)/os/common/ext/CMSIS/ARTERY \
+             $(ARTERY_CONTRIB)/../ext/AT32F435_437_Firmware_Library/libraries/cmsis/cm4/device_support \
+             $(ARTERY_CONTRIB)/../ext/AT32F435_437_Firmware_Library/libraries/drivers/inc \
              $(CHIBIOS)/os/common/startup/ARMCMx/compilers/GCC \
              $(CHIBIOS)/os/common/ext/CMSIS/include \
              $(CHIBIOS)/os/common/ext/ARM/CMSIS/Core/Include
