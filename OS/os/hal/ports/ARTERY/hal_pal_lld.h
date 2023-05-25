@@ -48,12 +48,10 @@ typedef gpio_type *ioportid_t;
  */
 typedef uint32_t iopadid_t;
 
-#define pal_lld_init(config) _pal_lld_init(config)
-
 #ifdef __cplusplus
 extern "C" {
 #endif
-  void _pal_lld_init(void);
+  void pal_lld_init(void);
 
 #ifdef __cplusplus
 }
