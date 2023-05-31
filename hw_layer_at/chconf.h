@@ -28,9 +28,6 @@
 #ifndef CHCONF_H
 #define CHCONF_H
 
-// todo: access some existing configuration field
-#define STM32_SYSCLK 192000000	// 192 MHz
-
 #define _CHIBIOS_RT_CONF_
 #define _CHIBIOS_RT_CONF_VER_6_1_
 
