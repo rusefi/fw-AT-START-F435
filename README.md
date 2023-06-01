@@ -8,6 +8,8 @@ An attempt to blink an LED on AT-START-F435 board using ChibiOS+rusEFI codebase
 
 Current status:
 
+We have openocd working with AT32 https://github.com/dron0gus/openocd
+
 AT32 различия с STM32: флеш, немного pwr и клоки
 
 Сильно похоже на stm32: usart завелся без правок, usb otg, pinmux и gpio тоже
