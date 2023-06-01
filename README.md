@@ -16,6 +16,7 @@ https://github.com/rusefi/ChibiOS/tree/stable_20.3.x.rusefi/demos/STM32/RT-AT32F
 
 https://github.com/rusefi/ChibiOS/tree/stable_20.3.x.rusefi/testhal/AT32/AT32F4xx/USB_CDC_IAD seems to work!
 
+Следующие этапы: SPI & ADC
 
 ![image](https://github.com/rusefi/fw-AT-START-F435/assets/48498823/81af22f5-1581-429a-a370-377ecf8afcb8)
 
