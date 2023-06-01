@@ -7,6 +7,20 @@
 void baseMCUInit(void) {
 }
 
+bool ramReadProbe(volatile const char *read_address) {
+    return true;
+}
+
+bool isStm32F42x() {
+    return true;
+}
+
+void stm32_standby() {
+    // todo: does AT32 match stm32?
+}
+
+__attribute__((weak)) void boardInit() { }
+
 // copy-paste of stm32 method? reuse code?
 brain_pin_e parseBrainPin(const char *str) {
 	if (strEqual(str, "none"))
