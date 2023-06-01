@@ -1,7 +1,3 @@
-[submodule "ext/AT32F435_437_Firmware_Library"]
-	path = ext/AT32F435_437_Firmware_Library
-	url = http://github.com/rusefi/AT32F435_437_Firmware_Library/
-	branch = rusefi_prod
 [submodule "ext/rusefi"]
 	path = ext/rusefi
 	url = http://github.com/rusefi/rusefi
